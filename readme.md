@@ -16,7 +16,7 @@ I use this setup globally to have linting for random JavaScript Files but you ca
 1. If you have a `package.json` in your project you can skip this step. Otherwise create a `package.json` with `npm init`.
 2. Install this configuration by running
 ```
-npx install-peerdeps eslint-config-danyo
+npx install-peerdeps --dev eslint-config-danyo
 ```
 3. You can see all the installed packages in the `devDependencies` section of your `package.json`
 4. In the root directory of your project (That's where your `package.json` lives aswell). Create a `.eslintrc.js` or `.eslintrc` file and fill it with:

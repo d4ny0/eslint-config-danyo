@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-danyo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint and Prettier Config for JavaScript, TypeScript and React",
   "main": "index.js",
   "keywords": [
