@@ -5,7 +5,7 @@
 * Lints JavaScript/TypeScript based on the current standards
 * Fixes formatting issues with Prettier
 * Lints + Fixes React and React Hooks based on the eslint config of airbnb with some minor changes to it based on my preferences
-* [See the applied rules](https://github.com/d4ny0/eslint-config-d4ny0/blob/master/.eslintrc.js)
+* [See the applied rules](https://github.com/d4ny0/eslint-config-danyo/blob/master/.eslintrc.js)
 
 ## Getting up and running 🏃‍♂️
 
@@ -16,7 +16,7 @@ I use this setup globally to have linting for random JavaScript Files but you ca
 1. If you have a `package.json` in your project you can skip this step. Otherwise create a `package.json` with `npm init`.
 2. Install this configuration by running
 ```
-npx install-peerdeps eslint-config-d4ny0
+npx install-peerdeps eslint-config-danyo
 ```
 3. You can see all the installed packages in the `devDependencies` section of your `package.json`
 4. In the root directory of your project (That's where your `package.json` lives aswell). Create a `.eslintrc.js` or `.eslintrc` file and fill it with:
@@ -24,7 +24,7 @@ npx install-peerdeps eslint-config-d4ny0
 ```json
 {
   "extends": [
-    "d4ny0"
+    "danyo"
   ]
 }
 ```
@@ -34,7 +34,7 @@ npx install-peerdeps eslint-config-d4ny0
 
 1. Install the configuration and all dependencies globally
 ```
-npx install-peerdeps --global eslint-config-d4ny0
+npx install-peerdeps --global eslint-config-danyo
 ```
 2. Create a global `.eslintrc` or `.eslintrc.js` file. ESLint will look in your home directory
 * `~/.eslintrc` or `~/.eslintrc.js` on a mac
@@ -45,7 +45,7 @@ The Content of if this file should look like this
 ```json
 {
   "extends": [
-    "d4ny0"
+    "danyo"
   ]
 }
 ```
@@ -107,7 +107,7 @@ You can overwrite both `eslint` and `prettier` settings in your own `.eslintrc` 
 ```js
 {
   "extends": [
-    "d4ny0"
+    "danyo"
   ],
   "rules": {
     "react/prefer-stateless-function": 2,
@@ -132,7 +132,7 @@ You can overwrite both `eslint` and `prettier` settings in your own `.eslintrc` 
 There's the possibility that global modules fail on installation. This will remove them from your system to start out fresh.
 
 ```
-npm remove --global eslint-config-d4ny0 eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm remove --global eslint-config-danyo eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 *For a local installation omit the `--global` flag. After that follow the setup guide again.*
 
