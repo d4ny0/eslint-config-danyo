@@ -42,6 +42,31 @@ module.exports = {
     "no-debugger": 0,
     "no-alert": 0,
     "no-await-in-loop": 0,
+    "no-console": 0,
+    "import/prefer-default-export": 0,
+    "import": 0,
+    "func-names": 0,
+    "space-before-function-paren": 0,
+    "comma-dangle": 0,
+    "max-len": 0,
+    "import/extensions": 0,
+    "no-underscore-dangle": 0,
+    "consistent-return": 0,
+    "radix": 0,
+    "no-shadow": [
+      2,
+      {
+        "hoist": "all",
+        "allow": [
+          "resolve",
+          "reject",
+          "done",
+          "next",
+          "err",
+          "error"
+        ]
+      }
+    ],
     "no-return-assign": [
       "error",
       "except-parens"
@@ -81,31 +106,6 @@ module.exports = {
         "props": false
       }
     ],
-    "no-console": 0,
-    "import/prefer-default-export": 0,
-    "import": 0,
-    "func-names": 0,
-    "space-before-function-paren": 0,
-    "comma-dangle": 0,
-    "max-len": 0,
-    "import/extensions": 0,
-    "no-underscore-dangle": 0,
-    "consistent-return": 0,
-    "radix": 0,
-    "no-shadow": [
-      2,
-      {
-        "hoist": "all",
-        "allow": [
-          "resolve",
-          "reject",
-          "done",
-          "next",
-          "err",
-          "error"
-        ]
-      }
-    ],
     "react/display-name": 1,
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0,
@@ -140,9 +140,12 @@ module.exports = {
     ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "@typescript-eslint/explicit-function-return-type": {
-      "allowExpressions": true
-    },
+    "@typescript-eslint/explicit-function-return-type": [
+      2,
+      {
+        "allowExpressions": true
+      }
+    ],
     "prettier/prettier": [
       "error",
       {
