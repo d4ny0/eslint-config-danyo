@@ -5,7 +5,7 @@
 * Lints JavaScript/TypeScript based on the current standards
 * Fixes formatting issues with Prettier
 * Lints + Fixes React and React Hooks based on the eslint config of airbnb with some minor changes to it based on my preferences
-* [See the applied rules](https://github.com/d4ny0/eslint-config-d4ny0/eslintrc.js)
+* [See the applied rules](https://github.com/d4ny0/eslint-config-d4ny0/.eslintrc.js)
 
 ## Getting up and running 🏃‍♂️
 
@@ -137,4 +137,4 @@ npm remove --global eslint-config-d4ny0 eslint eslint-config-airbnb eslint-confi
 *For a local installation omit the `--global` flag. After that follow the setup guide again.*
 
 ---
-## **🙌 Feel free to contribute to this setup 🙌**
+## **🙌 Feel free to contribute 🙌**
