@@ -9,6 +9,7 @@
     "typescript",
     "react",
     "eslint",
+    "eslintconfig",
     "lint",
     "config",
     "prettier"
