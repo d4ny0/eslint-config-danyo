@@ -2,7 +2,6 @@
   "name": "eslint-config-danyo",
   "version": "0.0.3",
   "description": "ESLint and Prettier Config for JavaScript, TypeScript and React",
-  "main": "index.js",
   "keywords": [
     "javascript",
     "ecmascript",
@@ -14,6 +13,8 @@
     "config",
     "prettier"
   ],
+  "main": "index.js",
+  "repository": "git@github.com:d4ny0/eslint-config-danyo.git",
   "author": "Daniel Holpfer",
   "license": "MIT",
   "peerDependencies": {
