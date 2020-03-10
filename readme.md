@@ -23,9 +23,13 @@ npx install-peerdeps --dev eslint-config-danyo
 
 ```json
 {
-  "extends": [
-    "danyo"
-  ]
+  "extends": ["danyo"]
+}
+```
+### If you are using TypeScript add the following instead:
+```json
+{
+  "extends": ["danyo", "danyo/ts"]
 }
 ```
 *To reduce file clutter in your project you alternatively can put this object in your `package.json` under the property `"eslintConfig":`.*
@@ -44,12 +48,15 @@ The Content of if this file should look like this
 
 ```json
 {
-  "extends": [
-    "danyo"
-  ]
+  "extends": ["danyo"]
 }
 ```
-
+ or this if you use TypeScript
+```json
+{
+  "extends": ["danyo", "danyo/ts"]
+}
+```
 ## Run your linter from the Command Line 💻
 
 After the setup step you can add the following code to your `"scripts"` section of your `package.json` to run the linter from the commandline.
