@@ -1,3 +1,4 @@
-const eslintrc = require('./.eslintrc');
-
-module.exports = eslintrc;
+module.exports = {
+  extends: ['./rules/base'].map(require.resolve),
+  rules: {},
+};
