@@ -90,10 +90,7 @@ module.exports = {
         "destructuring": "all"
       }
     ],
-    "arrow-body-style": [
-      2,
-      "as-needed",
-    ],
+    "arrow-body-style": 0,
     "no-unused-expressions": [
       2,
       {
