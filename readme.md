@@ -139,7 +139,7 @@ You can overwrite both `eslint` and `prettier` settings in your own `.eslintrc` 
 There's the possibility that global modules fail on installation. This will remove them from your system to start out fresh.
 
 ```
-npm remove --global eslint-config-danyo eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier eslint-import-resolver-typescript typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm remove --global eslint-config-danyo eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier babel-eslint eslint-import-resolver-typescript typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 *For a local installation omit the `--global` flag. After that follow the setup guide again.*
 
