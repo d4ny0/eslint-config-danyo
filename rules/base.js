@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'plugin:react/recommended', 'plugin:prettier/recommended', 'prettier/standard'],
+  extends: ['airbnb', 'plugin:react/recommended', 'plugin:prettier/recommended', 'prettier'],
   parser: 'babel-eslint', // Specifies the ESLint parser
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
